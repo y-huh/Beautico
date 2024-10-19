@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Beautico</title>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="">
+
+        <div class=" bg-[#6244A3] py-[14px] flex justify-center items-center gap-1 flex-row relative" >
+            <p class=" text-white text-sm font-normal lether-[21px] ">Free worldwide shipping for orders over $55.</p>
+            <a href="/" class=" text-white font-normal lether-[21px] hover:text-[#CF4D74] text-sm">Show</a>
+            <a class="absolute right-10 " href="">
+                <img src="./images/close.svg" width="32px" height="32px" alt="">
+            </a>
+        </div>
+        <div class="containers mx-auto">
+
+            <div class="bg-white flex items-center justify-center mx-auto">
+                <ul class="ml-[300px] flex items-center gap-1">
+                    <li class="containers text-[#697586] transition duration-150 ease-linear hover:text-[#CF4D74] hover:duration-75 duration-150   border-[#CF4D74] inline-block py-6 px-[15px] text-xs font-medium lether-6">
+                        <a href="">Products</a>
+                    </li>
+                    <li class=" containers text-[#697586] hover:text-[#CF4D74] inline-block py-6 px-[15px] hover:duration-75 duration-150 text-xs font-medium lether-6">
+                        <a href="">Story</a>
+                    </li>
+                    <li class="text-[#697586] containers hover:text-[#CF4D74] inline-block py-6 px-[15px] hover:duration-75 duration-150 text-xs font-medium lether-6">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="text-[#697586] containers hover:text-[#CF4D74] inline-block py-6 px-[15px] hover:duration-75 duration-150 text-xs font-medium lether-6">
+                        <a href="">Collection</a>
+                    </li>
+                    <li class="text-[#697586] containers hover:text-[#CF4D74] inline-block py-6 px-[15px] hover:duration-75 duration-150 text-xs font-medium lether-6">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                
+                    <div class="flex ml-[168px] gap-1 items-center">
+                        <button class=" w-[100px] py-[6px] flex items-center hover:duration-75 duration-150 justify-center gap-1 border-[1px] rounded-[64px] border-[#CDD5DF]">
+                            <img src="./images/shopping_bag.svg" alt="" width="20px" height="30px">
+                            <span class="text-[16px] text-[#202939] text-xs leading-6">Card</span>
+                        </button>
+                        <button class=" text-[16px] leading-6 text-sm w-[119px] py-[9px] bg-[#CF4D74] hover:duration-75 duration-150 text-center rounded-[64px] text-white hover:bg-white hover:border-[1px] hover:border-[#CDD5DF] hover:text-[#CF4D74]">
+                            Subscribe
+                        </button>
+                    </div>
+                
+            </div>
+        </div>
+    </header>
+    <main class="" >
+        <section class="bg-[#edebf7]  containers mx-auto">
+            <div class="flex justify-around">
+                <div class="w-[560px] flex flex-col items-start gap-[209px] justify-center" >
+                    <div class="flex flex-col gap-[21px]">
+                        
+                    <h2 class="mb-[8px] w-[472px] font-medium text-[#3C2769] text-5xl leading-[67.2px]">Hydrated skin in 3 easy steps</h2>
+                    <p class="w-[500px] text-[#3C2769] text-lg font-normal leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique duis Cursus mi quis viverra ornare.</p>
+                    <div class="flex gap-[16px]">
+                        <a href="" class="text-[16px] leading-6 text-sm w-[144px] py-[17px] px-[33px] bg-[#CF4D74] text-center rounded-[64px] text-white hover:text-[#CF4D74] hover:bg-white hover:border-[1px] hover:duration-75 duration-150 hover:border-[#CDD5DF]">Shop now</a>
+                    <a href="" class="w-[144px] bg-white py-[17px] flex items-center hover:duration-75 duration-150 justify-center gap-1 border-[1px] rounded-[64px] border-[#CDD5DF] hover:border-[1px] hover:duration-75 duration-150 hover:border-[#CF4D74] hover:text-[#CF4D74]">Our story</a>
+                    </div>
+                    </div>
+                    <div class="">
+                        <strong class="text-sm font-medium leading-[21px] text-[#3C2769]">Trusted by the world's best companies</strong>
+                        <div class="flex justify-between w-[400px] gap-[32px] mt-[24px]">
+                            <a href="">
+                                <img src="./images/hero-logo-1.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/hero-logo-2.svg" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/hero-logo-3.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="rounded-bl-lg" src="./images/hero-bg.png" width="720px" height="790px" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                    },
+                },
+            },
+        };
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+</body>
+</html>
