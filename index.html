@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/style.css" />
+    <meta name="theme" content="#3C2769" />
+
     <title>Beautico</title>
 
     <style type="text/tailwindcss">
@@ -21,13 +23,13 @@
         <div class=" bg-[#6244A3] py-[14px] flex justify-center items-center gap-1 flex-row relative" >
             <p class=" text-white text-sm font-normal lether-[21px] ">Free worldwide shipping for orders over $55.</p>
             <a href="/" class=" text-white font-normal lether-[21px] hover:text-[#CF4D74] text-sm">Show</a>
-            <a class="absolute right-10 " href="">
+            <a class="absolute max-lg:right-1 right-10 " href="">
                 <img src="./images/close.svg" width="32px" height="32px" alt="">
             </a>
         </div>
-        <div class="containers mx-auto">
+        <div class="flex flex-col items-center justify-center max-lg:mx-[50px] mx-auto">
 
-            <div class="bg-white flex items-center justify-center mx-auto">
+            <div class="bg-white flex items-center justify-center mx-auto max-lg:hidden">
                 <ul class="ml-[300px] flex items-center gap-1">
                     <li class="containers text-[#697586] transition duration-150 ease-linear hover:text-[#CF4D74] hover:duration-75 duration-150   border-[#CF4D74] inline-block py-6 px-[15px] text-xs font-medium lether-6">
                         <a href="">Products</a>
@@ -60,13 +62,13 @@
         </div>
     </header>
     <main class="" >
-        <section class="bg-[#edebf7]  containers mx-auto">
-            <div class="flex justify-around">
-                <div class="w-[560px] flex flex-col items-start gap-[209px] justify-center" >
-                    <div class="flex flex-col gap-[21px]">
+        <section class="bg-[#edebf7]  containers mx-auto max-lg:pt-[50px]">
+            <div class="flex flex-row max-lg:text-center max-lg:justify-center justify-center gap-[80px] max-lg:flex-col ">
+                <div class="max-w-[560px] max-lg:text-center max-lg:justify-center  flex flex-col items-start gap-[209px] max-lg:gap-[50px] justify-center" >
+                    <div class="flex flex-col gap-[21px] max-lg:text-center max-lg:justify-center max-lg:items-center max-w-[472px]">
                         
-                    <h2 class="mb-[8px] w-[472px] font-medium text-[#3C2769] text-5xl leading-[67.2px]">Hydrated skin in 3 easy steps</h2>
-                    <p class="w-[500px] text-[#3C2769] text-lg font-normal leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique duis Cursus mi quis viverra ornare.</p>
+                    <h2 class="mb-[8px] max-lg:text-2xl  font-medium text-[#3C2769] text-5xl leading-[67.2px]">Hydrated skin in 3 easy steps</h2>
+                    <p class=" text-[#3C2769] text-lg max-lg:text-sm font-normal leading-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique duis Cursus mi quis viverra ornare.</p>
                     <div class="flex gap-[16px]">
                         <a href="" class="text-[16px] leading-6 text-sm w-[144px] py-[17px] px-[33px] bg-[#CF4D74] text-center rounded-[64px] text-white hover:text-[#CF4D74] hover:bg-white hover:border-[1px] hover:duration-75 duration-150 hover:border-[#CDD5DF]">Shop now</a>
                     <a href="" class="w-[144px] bg-white py-[17px] flex items-center hover:duration-75 duration-150 justify-center gap-1 border-[1px] rounded-[64px] border-[#CDD5DF] hover:border-[1px] hover:duration-75 duration-150 hover:border-[#CF4D74] hover:text-[#CF4D74]">Our story</a>
@@ -74,7 +76,7 @@
                     </div>
                     <div class="">
                         <strong class="text-sm font-medium leading-[21px] text-[#3C2769]">Trusted by the world's best companies</strong>
-                        <div class="flex justify-between w-[400px] gap-[32px] mt-[24px]">
+                        <div class="flex justify-between max-w-[400px] gap-[32px] mt-[24px]">
                             <a href="">
                                 <img src="./images/hero-logo-1.svg" alt="">
                             </a>
@@ -92,8 +94,288 @@
                 </div>
             </div>
         </section>
-    </main>
+        <section class="mt-[50px]">
+            <div class="max-w-[760px] flex flex-col items-center justify-center mx-auto mt-[160px] mb-[76px] text-center">
+                <span class="bg-[#EDEBF7] text-[#3C2769] py-[4px] px-[12px] rounded-[64px]">How it works</span>
+                <h2 class="lg:text-[40px] max-md:mt-[11px] max-md:mb-[14px] md:text-[20px] mt-[22px] text-[#202939]">The most trusted products by our customers</h2>
 
+                </div>
+            <div class="flex justify-center max-lg:flex-col items-center gap-[48px]">
+                <div class="w-[395px] bg-[#f3f5f7] border-[0px] flex justify-center   flex-col  rounded-md">
+                    <img class="py-[45px]" src="./images/sellers1.png" width="395px" height="210px" alt="">
+                        <div class="mb-1 items-center justify-center flex max-lg:gap-[100px] gap-[212px]">
+                            <strong class="leading-[28px] text-[#202939] text-[20px] ">Clean</strong>
+                            <strong class="leading-6 text-[#697586] text-[16px] font-normal">$ 32.00 USD</strong>
+                        </div>
+                        <p class="pl-[23px] pb-6 text-start text-[13px]  text-[#697586] leading-[21px]" >Lorem ipsum dolor sit amet</p>
+                        <a class="text-center py-[17px] px-[100px] mx-[15px] bg-white text-[#202939] mb-[24px] border-[#CDD5DF] border-[1px] rounded-[64px]" href="">Product details</a>
+                </div>
+                <div class="w-[395px] bg-[#f3f5f7] border-[0px] flex justify-center   flex-col  rounded-md">
+                    <img class="py-[45px]" src="./images/sellers2.png" width="395px" height="210px" alt="">
+                        <div class="mb-1 items-center justify-center flex max-lg:gap-[100px] gap-[212px]">
+                            <strong class="leading-[28px] text-[#202939] text-[20px] ">Tone</strong>
+                            <strong class="leading-6 text-[#697586] text-[16px] font-normal">$ 17.00 USD</strong>
+                        </div>
+                        <p class="pl-[23px] pb-6 text-start text-[13px]  text-[#697586] leading-[21px]" >Lorem ipsum dolor sit amet</p>
+                        <a class="text-center py-[17px] px-[100px] mx-[15px] bg-white text-[#202939] mb-[24px] border-[#CDD5DF] border-[1px] rounded-[64px]" href="">Product details</a>
+                </div>
+                <div class="w-[395px] bg-[#f3f5f7] border-[0px] flex justify-center   flex-col  rounded-md">
+                    <img class="py-[45px]" src="./images/section3.png" width="395px" height="210px" alt="">
+                        <div class="mb-1 items-center justify-center flex max-lg:gap-[100px] gap-[212px]">
+                            <strong class="leading-[28px] font-normal text-[#202939] text-[20px] ">Soft</strong>
+                            <strong class="leading-6 text-[#697586] text-[16px] font-normal">$ 54.00 USD</strong>
+                        </div>
+                        <p class="pl-[23px] pb-6 text-start text-[13px]  text-[#697586] leading-[21px]" >Lorem ipsum dolor sit amet</p>
+                        <a class="text-center py-[17px] px-[100px] mx-[15px] bg-white text-[#202939] mb-[24px] border-[#CDD5DF] border-[1px] rounded-[64px]" href="">Product details</a>
+                </div>
+            </div>
+        </section>
+        <section class="mt-[230px] mb-[160px]">
+            <div class="flex flex-col items-center gap-[22px] text-center justify-center ">
+                <span class="bg-[#EDEBF7] text-[#3C2769] py-[4px] px-[12px] rounded-[64px]">About us</span>
+                <h1 class="lg:text-[40px] max-md:mt-[11px] max-md:mb-[14px] md:text-[20px] text-[#202939]">The beautiful story</h1>
+                <p class="text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px] leading-[27px] font-normal px-[30px] mt-[8px] max-w-[786px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                <div class="mt-[15px]">
+                    <a class="text-[#202939] font-normal text-sm leading-6 py-[20px] px-[33px] bg-white border-[1px] border-[#CDD5DF] rounded-[64px]" href="">Our story</a>
+                    <a class="text-[#202939] font-normal text-sm leading-6 py-[20px] px-[33px] bg-white " href="">Contact us <span class="ml-1 font-bold"> ></span></a>
+
+                </div>
+            </div>
+        </section>
+        <section class="flex justify-center gap-[64px] items-center max-xl:flex-col">
+            <div class=" mt-[10px]  text-center bg-[#f3f5f7]  max-xl:mb-[50px] max-w-[635px] rounded-t-lg" >
+                <h2 class="text-[#202939] pt-[63px] mb-[27px] font-normal text-2xl leading-10">Best selling creams</h2>
+                <p class="mb-[37px] max-xl:px-[20px] px-[78px] text-[#697586] text-[17px] font-normal leading-[27px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <a class="text-[#202939]  mb-[64px] font-normal text-sm leading-6 py-[9px] px-[21px] bg-white rounded-[64px]" href="">Shop now</a>
+                <img class="mt-[70px]" src="./images/section1.png" width="100%" alt="">
+            </div>
+            <div class=" mt-[10px]  text-center bg-[#f3f5f7] max-w-[635px] rounded-t-lg" >
+                <h2 class="text-[#202939] pt-[63px] mb-[27px] font-normal text-2xl leading-10">Best selling lotions</h2>
+                <p class="mb-[37px] px-[78px] max-xl:px-[10px text-[#697586] text-[17px] font-normal leading-[27px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                <a class="text-[#202939]  mb-[64px] font-normal text-sm leading-6 py-[9px] px-[21px] bg-white rounded-[64px]" href="">Shop now</a>
+                <img class="mt-[70px]" src="./images/section2.png" width="100%" alt="">
+            </div>
+        
+        </section>
+        <section class="pb-[160px]">
+            <div class="max-w-[760px] flex flex-col items-center justify-center mx-auto mt-[160px] mb-[76px] text-center">
+                <span class="bg-[#EDEBF7] text-[#3C2769] py-[4px] px-[12px] rounded-[64px]">How it works</span>
+                <h2 class="lg:text-[40px] max-md:mt-[11px] max-md:mb-[14px] md:text-[20px] mt-[22px] mb-[28px] text-[#202939]">Its easy as 1, 2, 3</h2>
+                <p class="text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px] leading-[27px] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros. <br> Elementum tristique duis cursus, mi quis viverra ornare eros dolor.</p>
+            </div>
+            <div class="flex justify-center gap-[150px] max-lg:flex-col max-lg:gap-[20px]">
+                <div class="flex flex-col text-center items-center justify-around">
+                    <div class="mb-[31px] w-[100px] h-[100px] bg-[#EDEBF7] rounded-full ">
+                        <img class="px-[30px] py-[30px]" src="./images/easy-1.svg" alt="">
+                    </div>
+                    <h2 class="font-normal mb-[31px] text-[24px] text-[#202939] leading-[33.6px]">Apply the product</h2>
+                    <p class="max-w-[317px] text-[#4B5563] text-[16px] font-normal leading-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    
+                </div>
+                <div class="flex flex-col text-center items-center justify-around">
+                    <div class="mb-[31px] w-[100px] h-[100px] bg-[#EDEBF7] rounded-full ">
+                        <img class="px-[30px] py-[30px]" src="./images/easy-2.svg" alt="">
+                    </div>
+                    <h2 class="font-normal mb-[31px] text-[24px] text-[#202939] leading-[33.6px]">Wait for the skin to absorb</h2>
+                    <p class="max-w-[317px] text-[#4B5563] text-[16px] font-normal leading-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    
+                </div>
+                <div class="flex flex-col text-center items-center justify-around">
+                    <div class="mb-[31px] w-[100px] h-[100px] bg-[#EDEBF7] rounded-full ">
+                        <img class="px-[30px] py-[30px]" src="./images/easy-3.svg" alt="">
+                    </div>
+                    <h2 class="font-normal mb-[31px] text-[24px] text-[#202939] leading-[33.6px]">And thats it</h2>
+                    <p class="max-w-[317px] text-[#4B5563] text-[16px] font-normal leading-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+    
+                </div>
+            </div>
+            
+        </section>
+        <section class="">
+            <div class="flex justify-center max-lg:flex-col gap-[128px] items-center">
+                <div>
+                    <img src="./images/face1.png" alt="" width="576px" height="576px">
+                </div>
+                <div class="max-w-[576px] max-lg:text-center max-lg:justify-center">
+                    <span class="bg-[#EDEBF7] text-[#3C2769] py-[4px] px-[12px]  rounded-[64px]">Smooth skin collection</span>
+                    <h2 class="lg:text-[40px] max-md:mt-[11px] max-md:mb-[14px] md:text-[20px] mt-[14px] text-[#202939]">For oily face skin</h2>
+                    <p class="text-[#697586] max-md:px-[40px] max-md:text-[15px]  max-lg:text-[15px]  text-[18px] leading-[27px] font-normal mb-[32px] mt-[28px] max-w-[786px]    ">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros elementum tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+                    <a class="text-[#202939] font-normal text-sm leading-6 py-[20px] px-[33px] bg-white border-[1px] border-[#CDD5DF] rounded-[64px]" href="">Shop now</a>
+                    <a class="text-[#202939] font-normal text-sm leading-6 py-[20px] px-[33px] bg-white " href="">Explore more <span class="ml-1 font-bold"> ></span></a>
+
+                </div>
+            </div>
+            <div class="flex justify-center flex-row-reverse gap-[128px] max-lg:flex-col  max-lg:text-center max-lg:justify-center mt-[160px] pb-[160px] items-center">
+                <div>
+                    <img src="./images/face2.png" alt="" width="576px" height="576px">
+                </div>
+                <div class="max-w-[576px]">
+                    <span class="bg-[#EDEBF7] text-[#3C2769] py-[4px] px-[12px] rounded-[64px]">Healthy tanning collection</span>
+                    <h2 class="lg:text-[40px] max-md:mt-[11px] max-md:mb-[14px] md:text-[20px] mt-[14px] text-[#202939]">For body skin</h2>
+                    <p class="text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px] leading-[27px] font-normal mb-[32px] mt-[28px] max-w-[786px]    ">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros elementum tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+                    <a class="text-[#202939] font-normal text-sm leading-6 py-[20px] px-[33px] bg-white border-[1px] border-[#CDD5DF] rounded-[64px]" href="">Shop now</a>
+                    <a class="text-[#202939] font-normal text-sm leading-6 py-[20px] px-[33px] bg-white " href="">Explore more <span class="ml-1 font-bold"> ></span></a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="bg-[#F3F5F7] pt-[128px] max-lg:pt-[1px] pb-[160px]" >
+            <div class="flex items-center gap-[80px] max-lg:items-center max-lg:justify-center max-lg:text-center max-lg:flex-col justify-center">
+                <div class="max-w-[514px] ">
+                    <h2 class="pr-[131px] max-lg:text-center max-lg:flex max-lg:items-center max-lg:justify-center max-lg:pr-[1px] lg:text-[48px] max-md:mt-[11px] max-md:mb-[14px] md:text-[20px] mt-[22px] mb-[27px] text-[#202939]">Frequently asked questions</h2>
+
+                    <p class="max-lg:text-sm text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px] mb-[37px] text-[18px] leading-[27px] font-normal">Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
+
+                    <a href="" class="text-[16px] leading-6 text-sm w-[144px] py-[17px] px-[33px] bg-[#CF4D74] text-center rounded-[64px] text-white hover:text-[#CF4D74] hover:bg-white hover:border-[1px] hover:duration-75 duration-150 hover:border-[#CDD5DF]">Shop now</a>
+
+
+                </div>
+                <div class="flex flex-col gap-[16px]">
+                    <button class="flex gap-5 py-[22px] pl-[23px] bg-white hover:border-[1px] hover:border-[#CDD5DF] border-[1px] border-white items-center justify-between rounded-[10px] pr-[23px] max-w-[638px]">
+                        <p class="text-[#202939]">Are the fragrances in your products natural and safe?</p>
+                        <img src="./images/add.svg" alt="" width="16px" height="24px">
+                    </button>
+                    <button class="flex gap-5 py-[22px] pl-[23px] bg-white hover:border-[1px] hover:border-[#CDD5DF] border-[1px] border-white items-center justify-between rounded-[10px] pr-[23px] max-w-[638px]">
+                        <p class="text-[#202939]">Are Beautico products vegan?</p>
+                        <img src="./images/add.svg" alt="" width="16px" height="24px">
+                    </button>
+                    <button class="flex gap-5 py-[22px] pl-[23px] bg-white hover:border-[1px] hover:border-[#CDD5DF] border-[1px] border-white items-center justify-between rounded-[10px] pr-[23px] max-w-[638px]">
+                        <p class="text-[#202939]">What are the expiry dates for Beautico products?</p>
+                        <img src="./images/add.svg" alt="" width="16px" height="24px">
+                    </button>
+                    <button class="flex gap-5 py-[22px] pl-[23px] bg-white hover:border-[1px] hover:border-[#CDD5DF] border-[1px] border-white items-center justify-between rounded-[10px] pr-[23px] max-w-[638px]">
+                        <p class="text-[#202939]">Is your packaging environmentally friendly?</p>
+                        <img src="./images/add.svg" alt="" width="16px" height="24px">
+                    </button>
+                    <button class="flex gap-5 py-[22px] pl-[23px] bg-white hover:border-[1px] hover:border-[#CDD5DF] border-[1px] border-white items-center justify-between rounded-[10px] pr-[23px] max-w-[638px]">
+                        <p class="text-[#202939]">Does Beautico products give me an allergic reaction?</p>
+                        <img src="./images/add.svg" alt="" width="16px" height="24px">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="mt-[50px] mb-[127px]">
+            <div class="flex items-center justify-center flex-col">
+                <div class="flex flex-col justify-center max-lg:items-center items-start">
+                    <span class="bg-[#EDEBF7] text-[#3C2769]  py-[4px] px-[12px]  rounded-[64px]">Latest posts</span>
+                    <h2 class="lg:text-[40px] max-md:mt-[11px] max-md:mb-[14px] md:text-[20px] mt-[14px] text-[#202939]">From our blog</h2>
+                    <div class="">
+                        <p class="inline-block text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px] leading-[27px] font-normal mb-[32px] mt-[28px] max-w-[786px]    ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a  class="ml-[650px] max-lg:ml-[120px] max-lg:text-center text-[#202939] t-[50px] font-normal text-sm leading-6 py-[20px] px-[33px] bg-white border-[1px] border-[#CDD5DF] rounded-[64px]" href="">View all posts</a>
+                    </div>
+                </div>
+                <div class="flex justify-center max-lg:flex-col items-center  gap-[32px] mt-[80px]">
+                    <div class="max-w-[406px] bg-[#f3f5f7] rounded-b-lg">
+                        <div class="relative">
+                            <img class="" src="./images/posts1.png" alt="">
+                            <a class="absolute top-[24px] text-white text-sm left-[24px] py-[4px] px-[12px] bg-[#CF4D74] rounded-[64px]" href="">Anti aging</a>
+                        </div>
+                        <div class="pb-[16px]">
+                            <h2 class="pl-[24px] mt-[32px] mb-[7px] text-[18px]">Dry acne prone skincare routine</h2>
+                        <p class="pl-[24px] mb-[22px] text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px] leading-[27px] font-normal mb-[32px] mt-[28px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                        <a class="pl-[24px] text-[#202939] font-normal text-sm leading-6   " href="">Read more <span class="ml-1 font-bold"> ></span></a>
+    
+                        </div>
+                    </div>
+                    <div class="max-w-[406px] bg-[#f3f5f7] rounded-b-lg">
+                        <div class="relative">
+                            <img class="" src="./images/posts2.png" alt="">
+                            <a class="absolute top-[24px] text-white text-sm left-[24px] py-[4px] px-[12px] bg-[#CF4D74] rounded-[64px]" href="">Skin types</a>
+                        </div>
+                        <div class="pb-[16px]">
+                            <h2 class="pl-[24px] mt-[32px] mb-[7px] text-[18px]">5 ingredients to calm down stressed out skin</h2>
+                        <p class="pl-[24px] mb-[22px] text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px] leading-[27px] font-normal mb-[32px] mt-[28px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                        <a class="pl-[24px] text-[#202939] font-normal text-sm leading-6   " href="">Read more <span class="ml-1 font-bold"> ></span></a>
+    
+                        </div>
+                    </div>
+                    <div class="max-w-[406px] bg-[#f3f5f7] rounded-b-lg">
+                        <div class="relative">
+                            <img class="" src="./images/posts3.png" alt="">
+                            <a class="absolute top-[24px] text-white text-sm left-[24px] py-[4px] px-[12px] bg-[#CF4D74] rounded-[64px]" href="">Organic skincare</a>
+                        </div>
+                        <div class="pb-[16px]">
+                            <h2 class="pl-[24px] mt-[32px] mb-[7px] text-[18px]">How to use products for sensitive skin</h2>
+                        <p class="pl-[24px] mb-[22px] text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px] leading-[27px] font-normal mb-[32px] mt-[28px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                        <a class="pl-[24px] text-[#202939] font-normal text-sm leading-6   " href="">Read more <span class="ml-1 font-bold"> ></span></a>
+    
+                        </div>
+                    </div>
+                            
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="flex items-center justify-center flex-col">
+        <div  class="flex items-center mb-[140px]  justify-center gap-[124px] max-lg:flex-col">
+            <div class="max-w-[480px] ">
+                <p class="text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px]">Join our newsletter to stay up to date on features and releases.</p>
+                <form class="" action="https://echo.htmlacademy.ru" method="post">
+                    <input name="user-subscribe" class="border-[#CDD5DF] border-[1px] rounded-[8px] w-[321px] h-[56px] mt-[32px] mb-[19px]" required autocomplete="off"  type="text">
+                    <button class="text-[16px] leading-6 text-sm w-[144px] py-[17px] px-[33px] bg-[#CF4D74] text-center rounded-[64px] text-white hover:text-[#CF4D74] hover:bg-white hover:border-[1px] hover:duration-75 duration-150 hover:border-[#CDD5DF]"">Subscribe</button>
+
+                </form>
+                <p class="text-[#697586] max-md:px-[40px] max-md:text-[15px] max-lg:text-[15px]  text-[18px]">By subscribing you agree to with our <span><a class="text-[#6244a3]" href="">Privacy Policy</a></span> and provide consent to receive updates from our company.</p>
+                </div>
+            <div class="flex justify-center items-top gap-[40px]">
+                <div class="flex flex-col gap-[16px]">
+                    <strong class="text-[16px] mb-[8px] text-[#697586]">
+                        Pages
+                    </strong>
+                    <a class="text-[#697586] text-[14px]" href="">Home</a>
+                    <a class="text-[#697586] text-[14px]" href="">About</a>
+                    <a class="text-[#697586] text-[14px]" href="">Contact</a>
+                    <a class="text-[#697586] text-[14px]" href="">Blog</a>
+                    <a class="text-[#697586] text-[14px]" href="">FAQs</a>
+                    <a class="text-[#697586] text-[14px]" href="">Legal</a>
+        
+                </div>
+                <div class="flex flex-col gap-[16px]">
+                    <strong class="text-[16px] mb-[8px] text-[#697586]">
+                        CMS Pages
+                    </strong>
+                    <a class="text-[#697586] text-[14px]" href="">Blog Post</a>
+                    <a class="text-[#697586] text-[14px]" href="">Blog Categories</a>
+                    <a class="text-[#697586] text-[14px]" href="">Product Page</a>
+                    <a class="text-[#697586] text-[14px]" href="">Product Categories</a>
+                    
+        
+                </div>
+                <div class="flex flex-col gap-[16px]">
+                    <strong class="text-[16px] mb-[8px] text-[#697586]">
+                        Account Pages
+                    </strong>
+                    <a class="text-[#697586] text-[14px]" href="">Login</a>
+                    <a class="text-[#697586] text-[14px]" href="">Sign Up</a>
+                    <a class="text-[#697586] text-[14px]" href="">Forgot Password</a>
+                    <a class="text-[#697586] text-[14px]" href="">Reset Password</a>
+                    <a class="text-[#697586] text-[14px]" href="">Email Confirmation</a>
+        
+                </div>
+                <div class="flex flex-col gap-[16px]">
+                    <strong class="text-[16px] mb-[8px] text-[#697586]">
+                        Utility Pages
+                    </strong>
+                    <a class="text-[#697586] text-[14px]" href="">Style Guide</a>
+                    <a class="text-[#697586] text-[14px]" href="">Changelog</a>
+                    <a class="text-[#697586] text-[14px]" href="">Licenses</a>
+                    <a class="text-[#697586] text-[14px]" href="">404</a>
+                    <a class="text-[#697586] text-[14px]" href="">Password</a>        
+                </div>
+            </div>
+        </div>
+        <div class="border-t-[1px] pt-[50px] max-lg:gap-[0px] max-lg:flex-col max-lg:items-center  max-lg:justify-center border-b-[#E3E8EF] flex justify-between gap-[700px]">
+            <p class="max-lg:mb-[24px] text-[#697586] text-[14px]">© Beautico by Minimal Square.Powered by Webflow.</p>
+            <div class="flex gap-3 ">
+                <a href=""><img src="./images/sm.svg" alt=""></a>
+                <a href=""><img src="./images/sm2.svg" alt=""></a>
+                <a href=""><img src="./images/sm3.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
